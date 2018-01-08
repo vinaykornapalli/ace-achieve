@@ -43,7 +43,7 @@
 
           <a class="navbar-brand" href="#">
             <div>
-              <img src="ace_logo.jpg" alt="" style="height:45px;width:50px;margin-top:-6px;">
+              <img src="images/ace_logo.jpg" alt="" style="height:45px;width:50px;margin-top:-6px;">
             </div>
           </a>
         </div>
@@ -129,24 +129,64 @@
     </div>
 
 
-    <div class="container-fluid second ">
+    <div class="container-fluid second" id="showcase-1">
       <div class="container z-depth-5 hoverable">
         <div class="row">
           <div class="col-md-6 left">
-            <div class="d-flex inline justify-content-center z-depth-3 animated fadeInLeft">CS-GATE AIR 16</div>
+            <div class="d-flex justify-content-center z-depth-3 ">CS-GATE AIR 16</div>
             <ul class="gate">
               <li>We strive for the overall development of students and pave ways for their future plans</li>
               <br>
               <li>Frequent sessions are made on career mantra and incentives are provided to deserved students</li>
             </ul>
           </div>
-          
-          <div class="col-md-6  right animated infinite bounce">
-            <img class="dart img-fluid " src="dart-board.svg" alt="">
+
+          <div class="col-md-6 right">
+            <img class="dart img-fluid " src="images/dart-board.svg" alt="">
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="container-fluid third" id="showcase-2">
+      <div class="container z-depth-5 third-inner">
+        <div class="row">
+        
+              <div class="col-md-6 worker">
+                  <img class="intern img-fluid " src="images/worker.svg" alt="">
+                </div>
+          <div class="col-md-6 right-2" style="padding:40px;">
+            <div class="d-flex justify-content-center z-depth-3 ">CS-GATE AIR 16</div>
+            <ul class="gate">
+              <li>We strive for the overall development of students and pave ways for their future plans</li>
+              <br>
+              <li>Frequent sessions are made on career mantra and incentives are provided to deserved students</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid fourth" id="showcase-3">
+      <div class="container z-depth-5 fourth-inner">
+        <div class="row">
+        
+            <div class="col-md-6 left-3" style="padding:40px;">
+              <div class="d-flex justify-content-center z-depth-3 ">CS-GATE AIR 16</div>
+              <ul class="gate">
+                <li>We strive for the overall development of students and pave ways for their future plans</li>
+                <br>
+                <li>Frequent sessions are made on career mantra and incentives are provided to deserved students</li>
+              </ul>
+            </div>
+
+              <div class="col-md-6 network right-3">
+                  <img class="place img-fluid " src="images/network.svg" alt="">
+                </div>
+
+        </div>
+      </div>
 
     </div>
 
@@ -163,8 +203,8 @@
   <script src="js/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
-  <script src="js/popmotion.global.min.js"></script>
   <script src="js/index.js"></script>
   <script>
     $("div.navbar-fixed-top").autoHidingNavbar();
@@ -189,11 +229,90 @@
         $(".line").css('margin-left', '500px');
       });
 
-
-
-
-
     });
+
+    
+   window.sr = ScrollReveal();
+   sr.reveal('#navi',{
+     
+     duration:2000,
+     origin:'top',
+
+
+   });
+   sr.reveal('#showcase-1,#showcase-2,#showcase-3',{
+     
+    duration:2000,
+    origin:'bottom',
+    distance:'200px',
+
+  });
+
+  sr.reveal('#showcase-1 .left',{
+     
+    duration:1000,
+    origin:'left',
+    distance:'200px',
+    delay:1000,
+
+  });
+  sr.reveal('#showcase-1 .right',{
+     
+    duration:1000,
+    origin:'right',
+    distance:'200px',
+    delay:1000,
+
+  });
+  sr.reveal('#showcase-2 .worker',{
+     
+    duration:1000,
+    origin:'left',
+    distance:'200px',
+    delay:1000,
+
+  });
+ 
+  sr.reveal('#showcase-2 .right-2',{
+     
+    duration:1000,
+    origin:'right',
+    distance:'200px',
+    delay:1000,
+
+  });
+
+  sr.reveal('#showcase-3 .left-3',{
+     
+    duration:1000,
+    origin:'left',
+    distance:'200px',
+    delay:1000,
+
+  });
+
+  sr.reveal('#showcase-3 .right-3',{
+     
+    duration:1000,
+    origin:'right',
+    distance:'200px',
+    delay:1000,
+
+  });
+   sr.reveal('.bar');
+
+     
+
+
+
+
+
+
+
+
+
+
+
   </script>
 
 </body>
