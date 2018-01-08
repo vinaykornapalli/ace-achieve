@@ -233,6 +233,8 @@ behavior: url(/pie/PIE.htc);
 {
     padding:30px;
     font-size: 1.1em;
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;
 }
 .d-flex
 {
@@ -240,7 +242,7 @@ behavior: url(/pie/PIE.htc);
     font-size: 50px;
     color: antiquewhite;
     border-radius: 2px;
-    font-family:'Cabin Condensed', sans-serif;
+    font-family:'Coustard', serif;
     text-align: center;
 }
 .gate
@@ -288,7 +290,17 @@ behavior: url(/pie/PIE.htc);
    border-radius: 1px;
    
 }
+.right-2
+{
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;
+}
 
+.left-3
+{
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;   
+}
 .fourth
 {
     padding-top: 100px;
