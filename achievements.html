@@ -133,7 +133,7 @@
       <div class="container z-depth-5 hoverable">
         <div class="row">
           <div class="col-md-6 left">
-            <div class="d-flex justify-content-center z-depth-3 ">CS-GATE AIR 16</div>
+            <div class="d-flex justify-content-center z-depth-3 "><p>CS-GATE AIR 16</p></div>
             <ul class="gate">
               <li>We strive for the overall development of students and pave ways for their future plans</li>
               <br>
@@ -149,14 +149,14 @@
     </div>
 
     <div class="container-fluid third" id="showcase-2">
-      <div class="container z-depth-5 third-inner">
+      <div class="container z-depth-5 third-inner hoverable">
         <div class="row">
         
               <div class="col-md-6 worker">
                   <img class="intern img-fluid " src="images/worker.svg" alt="">
                 </div>
           <div class="col-md-6 right-2" style="padding:40px;">
-            <div class="d-flex justify-content-center z-depth-3 ">CS-Gate AIR 16</div>
+            <div class="d-flex justify-content-center z-depth-3 "><p>CS-GATE AIR 16</p></div>
             <ul class="gate">
               <li>We strive for the overall development of students and pave ways for their future plans</li>
               <br>
@@ -169,11 +169,11 @@
 
 
     <div class="container-fluid fourth" id="showcase-3">
-      <div class="container z-depth-5 fourth-inner">
+      <div class="container z-depth-5 fourth-inner hoverable">
         <div class="row">
         
             <div class="col-md-6 left-3" style="padding:40px;">
-              <div class="d-flex justify-content-center z-depth-3 ">CS-GATE AIR 16</div>
+              <div class="d-flex justify-content-center z-depth-3 "><p>CS-GATE AIR 16</p></div>
               <ul class="gate">
                 <li>We strive for the overall development of students and pave ways for their future plans</li>
                 <br>
@@ -190,9 +190,13 @@
 
     </div>
 
+  </div>
+  <section  id="bar" class="container-fluid">
+    <div class="container">
+      <p> &copy; Copyright-TeamAce</p>
+    </div>
+   </section>
 
-  </div>
-  </div>
 
 
 
@@ -299,20 +303,16 @@
     delay:1000,
 
   });
-   sr.reveal('.bar');
+   sr.reveal('#bar',
+   {
+     duration:1000,
+     origin:'bottom',
+     distance:'100px',
+
+
+   });
 
      
-
-
-
-
-
-
-
-
-
-
-
   </script>
 
 </body>

@@ -199,14 +199,27 @@ behavior: url(/pie/PIE.htc);
 {
     height: 400px;;
 }
-.hoverable
-{
 
-}
-.left
+#showcase-1 ul
 {
-    font-size: 20px;
+    
+    font-size: 16px;
 }
+ #showcase-2  ul
+{
+    
+    font-size: 15px;
+}
+#showcase-3  ul
+{
+    
+    font-size: 15px;
+}
+.d-flex p
+{
+    font-size: 25px;
+}
+
 }
 
 
@@ -215,7 +228,7 @@ behavior: url(/pie/PIE.htc);
     padding-top: 100px;
 
 }
-.hoverable
+#showcase-1 .container
 {   z-index: 10;
     margin-top: -150px;
    background-color:cornflowerblue;
@@ -304,11 +317,12 @@ behavior: url(/pie/PIE.htc);
 .fourth
 {
     padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 .fourth-inner
 {  
-     z-index: 10;
+   z-index: 10;
    background-color:rgb(35, 180, 42);
    height: auto;
    border-radius: 1px;
@@ -325,4 +339,29 @@ behavior: url(/pie/PIE.htc);
 {
     width: 200px;
     height: auto;
+}
+
+
+#bar p
+{
+    text-align: center;
+    font-size: 1em;
+    font-family:  'Coustard', serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+#bar 
+{  
+
+  background-color: white;
+  width: 100%;
+  
+}
+
+#bar .container
+{  
+    border-radius: .6%;
+    height: 55px;
 }
